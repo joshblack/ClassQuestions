@@ -1,0 +1,9 @@
+{
+	"name": "QuestionProject",
+	"version": "0.1.0",
+	"private": "true",
+	"dependencies": {
+		"socket.io": "0.9.*",
+		"express": "3.2.6"
+	}
+}

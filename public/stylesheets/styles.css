@@ -1,0 +1,26 @@
+.header-wrapper {
+	height: 150px;
+	background-color: #393B45;
+}
+
+.site-title {
+	font-size: 1em;
+	color: #fff;
+	width: 33%;
+	float: left;
+	display: inline;
+	margin: 0 auto;
+}
+
+#questions-display {
+	height: 500px;
+}
+
+#content {
+	display: none;
+}
+
+#questions {
+	float: left;
+	border: 1px #000 solid;
+}

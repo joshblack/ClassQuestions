@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Questions Project</title>
+	<link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" />
+</head>
+<body>
+	<div class="header-wrapper">
+		<header>
+			<div class="site-title">
+				<h1>Ask a Question</h1>
+			</div>
+		</header>
+	</div>
+	<div class="page">
+		<div id="username-wrapper">
+			<p>Enter a username:</p>
+			<p id="username-error"></p>
+			<form id="username-set">
+				<input size="35" id="username" autofocus autocomplete="off"></input>
+				<input type="submit"></input>
+			</form>
+		</div>
+		<div id="content">
+			<section id="questions">
+				<div id="questions-display"></div>
+				<form id="question-submit">
+					<input size="35" id="question"></input>
+					<input type="submit"></input>
+				</form>
+			</section>
+			<aside id="users"></aside>
+		</div>
+	</div>
+	<div class="footer">
+
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="/javascript/app.js"></script>
+</body>
+</html>
