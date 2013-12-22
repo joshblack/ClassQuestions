@@ -3,15 +3,22 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Questions Project</title>
-	<link rel="stylesheet" href="/stylesheets/styles.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/stylesheets/normalize.css">
+	<link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 <body>
-	<div class="header-wrapper">
-		<header>
-			<div class="site-title">
-				<h1>Ask a Question</h1>
-			</div>
-		</header>
+	<header class="header-wrapper">
+		<div class="site-title">
+			<h1><a href="#" class="search-icon">Have a Question?</a></h1>
+		</div>
+	</header>
+	<div class="ribbons">
+		<div class="ribbon ribbon-first"></div>
+		<div class="ribbon ribbon-second"></div>
+		<div class="ribbon ribbon-third"></div>
+		<div class="ribbon ribbon-fourth"></div>
 	</div>
 	<div class="page">
 		<div id="username-wrapper">
@@ -32,9 +39,6 @@
 			</section>
 			<aside id="users"></aside>
 		</div>
-	</div>
-	<div class="footer">
-
 	</div>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
